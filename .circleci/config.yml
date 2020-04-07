@@ -5,5 +5,6 @@ orbs:
 
 workflows:
   maven_test:
+    working_directory: testing-java-junit5
     jobs:
       - maven/test # checkout, build, test, and upload test results
