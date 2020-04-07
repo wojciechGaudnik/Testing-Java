@@ -5,7 +5,7 @@ orbs:
 
 executors:
   maven_test:
-    working_directory: ~/testing-java-junit5
+    working_directory: /testing-java-junit5
 
 workflows:
   maven_test:
