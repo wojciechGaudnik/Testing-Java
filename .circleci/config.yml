@@ -4,7 +4,7 @@ orbs:
   maven: circleci/maven@0.0.12
 
 workflows:
-  working_directory: ~/testing-java-junit5
+  #working_directory: ~/testing-java-junit5
   maven_test:    
     job:
       - maven/test # checkout, build, test, and upload test results
