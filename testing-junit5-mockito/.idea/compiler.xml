@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="testing-java-junit5" />
+        <module name="TDD_Java" />
         <module name="testing-junit5-mockito" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="TDD_Java" target="1.5" />
+      <module name="testing-java-junit5" target="11" />
       <module name="testing-junit5-mockito" target="11" />
     </bytecodeTargetLevel>
   </component>

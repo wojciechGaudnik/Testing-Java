@@ -1,0 +1,19 @@
+
+[
+java:S2184"@Cast one of the operands of this integer division to a "double".(¤ÆòÅþÿÿÿÿ
+y
+java:S1488#"^Immediately return this expression instead of assigning it to the temporary variable "result".(˜îµÚÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­›¾»øÿÿÿÿ
+<
+java:S2111#"!Use "BigDecimal.valueOf" instead.(˜îµÚÿÿÿÿÿ
+K
+java:S1874#"0Remove this use of "setScale"; it is deprecated.(˜îµÚÿÿÿÿÿ
+P
+java:S1874#"5Remove this use of "ROUND_HALF_UP"; it is deprecated.(˜îµÚÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÿ¦Ë»ýÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ð•’—ýÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(’Í€¤ûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(éÃ¿‰
+V	java:S125$"<This block of commented-out lines of code should be removed.(“Äê×øÿÿÿÿ
+V	java:S125'"<This block of commented-out lines of code should be removed.( ®ÇÇøÿÿÿÿ
