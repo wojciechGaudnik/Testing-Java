@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../tb2g-testing-spring" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../testing-java-junit5/pom.xml" />
         <option value="$PROJECT_DIR$/../TDD/pom.xml" />
+        <option value="$PROJECT_DIR$/../tb2g-testing-spring/pom.xml" />
       </list>
     </option>
   </component>
