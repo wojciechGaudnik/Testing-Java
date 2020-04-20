@@ -14,8 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.BDDMockito.given;
+import static org.mockito.Mockito.*;
 
 
 @ExtendWith(MockitoExtension.class)
@@ -29,6 +30,9 @@ class OwnerControllerTest {
 
 	@InjectMocks
 	OwnerController controller;
+
+	@Mock
+	Model model;
 
 	@Mock
 	BindingResult bindingResult;
@@ -66,6 +70,7 @@ class OwnerControllerTest {
 		//then
 			assertThat("%Buck%").isEqualToIgnoringCase(stringArgumentCaptor.getValue());
 			assertThat("redirect:/owners/1").isEqualToIgnoringCase(viewName);
+
 	}
 
 	@Test
@@ -75,23 +80,33 @@ class OwnerControllerTest {
 
 		//when
 		String viewName = controller.processFindForm(owner, bindingResult, null);
+//		verifyNoInteractions(model);
+
 
 		//then
 		assertThat("%DontFindMe%").isEqualToIgnoringCase(stringArgumentCaptor.getValue());
 		assertThat("owners/findOwners").isEqualToIgnoringCase(viewName);
+//		verifyNoMoreInteractions(service);
+//		verifyNoInteractions(model);
 	}
 
 	@Test
 	void processFindFormWildCardFound() {
 		//given
 		Owner owner = new Owner(1L, "Joe", "FindMe");
+		InOrder inOrder = inOrder(model, service);
 
 		//when
-		String viewName = controller.processFindForm(owner, bindingResult, Mockito.mock(Model.class));
+		String viewName = controller.processFindForm(owner, bindingResult, model);
 
 		//then
 		assertThat("%FindMe%").isEqualToIgnoringCase(stringArgumentCaptor.getValue());
 		assertThat("owners/ownersList").isEqualToIgnoringCase(viewName);
+
+		//inOrder asserts
+		inOrder.verify(service).findAllByLastNameLike(anyString());
+		inOrder.verify(model, times(1)).addAttribute(anyString(), anyList());
+		verifyNoMoreInteractions(model);
 	}
 
 	@Test
@@ -105,6 +120,7 @@ class OwnerControllerTest {
 
 		//then
 		assertThat(viewName).isEqualToIgnoringCase(OWNERS_CREATE_OR_UPDATE_OWNER_FORM);
+		verifyNoInteractions(model);
 	}
 
 	@Test
@@ -119,6 +135,7 @@ class OwnerControllerTest {
 
 		//then
 		assertThat(viewName).isEqualToIgnoringCase(REDIRECT_OWNERS_5);
+		verifyNoInteractions(model);
 	}
 
 //	@Test
