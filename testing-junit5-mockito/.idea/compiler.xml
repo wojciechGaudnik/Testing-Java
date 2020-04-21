@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="tb2g-testing-spring-with-out-context" />
         <module name="testing-java-junit5" />
+        <module name="tb2g-testing-spring-with-context" />
         <module name="testing-junit5-mockito" />
         <module name="TDD_Java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="tb2g-testing-spring-with-context" target="14" />
       <module name="tb2g-testing-spring-with-out-context" target="11" />
       <module name="TDD_Java" target="1.5" />
       <module name="testing-java-junit5" target="11" />
@@ -21,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tb2g-testing-spring-with-context" options="-Xlint" />
       <module name="tb2g-testing-spring-with-out-context" options="-Xlint" />
     </option>
   </component>

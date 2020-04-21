@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tb2g-testing-spring-with-out-context:war">
+    <output-path>$PROJECT_DIR$/../tb2g-testing-spring-with-out-context/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tb2g-testing-spring-with-out-context</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="petclinic.war">
+      <element id="artifact" artifact-name="tb2g-testing-spring-with-out-context:war exploded" />
+    </root>
+  </artifact>
+</component>

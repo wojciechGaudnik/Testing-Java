@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../tb2g-testing-spring-with-context" />
     <file type="web" url="file://$PROJECT_DIR$/../tb2g-testing-spring-with-out-context" />
   </component>
   <component name="MavenProjectsManager">
@@ -10,6 +11,8 @@
         <option value="$PROJECT_DIR$/../testing-java-junit5/pom.xml" />
         <option value="$PROJECT_DIR$/../TDD/pom.xml" />
         <option value="$PROJECT_DIR$/../tb2g-testing-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/../tb2g-testing-spring-with-out-context/pom.xml" />
+        <option value="$PROJECT_DIR$/../tb2g-testing-spring-with-context/pom.xml" />
       </list>
     </option>
   </component>
