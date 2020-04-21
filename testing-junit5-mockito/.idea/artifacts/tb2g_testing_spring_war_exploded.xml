@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="tb2g-testing-spring" />
+          <element id="module-output" name="tb2g-testing-spring-with-out-context" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.2" />
@@ -84,9 +84,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/../tb2g-testing-spring/target/petclinic/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/../tb2g-testing-spring-with-out-context/target/petclinic/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="tb2g-testing-spring/web/Web" />
+      <element id="javaee-facet-resources" facet="tb2g-testing-spring-with-out-context/web/Web" />
     </root>
   </artifact>
 </component>

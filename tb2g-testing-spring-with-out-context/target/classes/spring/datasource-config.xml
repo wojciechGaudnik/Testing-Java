@@ -18,7 +18,7 @@
 
     <!-- ========================= DATASOURCE DEFINITION ========================= -->
 
-    <!-- Configurer that replaces MavenProject: guru.springframework.petclinic:tb2g-testing-spring:5.1.0 @ /home/bq666/Workspace/TestsGuru/tb2g-testing-spring/pom.xml placeholders with values from a properties file -->
+    <!-- Configurer that replaces ${...} placeholders with values from a properties file -->
     <!-- (in this case, JDBC-related settings for the dataSource definition below) -->
     <context:property-placeholder location="classpath:spring/data-access.properties" system-properties-mode="OVERRIDE"/>
 

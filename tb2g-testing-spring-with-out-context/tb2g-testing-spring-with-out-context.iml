@@ -7,11 +7,11 @@
           <deploymentDescriptor name="jetty-web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/jetty-web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+          <root url="file://$MODULE_DIR$/../tb2g-testing-spring/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <root url="file://$MODULE_DIR$/../tb2g-testing-spring/src/main/java" />
+          <root url="file://$MODULE_DIR$/../tb2g-testing-spring/src/main/resources" />
         </sourceRoots>
       </configuration>
     </facet>
@@ -30,8 +30,8 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
-    <output url="file://$MODULE_DIR$/target/classes" />
-    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <output url="file://$MODULE_DIR$/../tb2g-testing-spring/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../tb2g-testing-spring/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
