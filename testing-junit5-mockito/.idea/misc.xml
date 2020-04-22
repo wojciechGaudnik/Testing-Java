@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../tb2g-testing-spring-mvc" />
     <file type="web" url="file://$PROJECT_DIR$/../tb2g-testing-spring-with-context" />
     <file type="web" url="file://$PROJECT_DIR$/../tb2g-testing-spring-with-out-context" />
   </component>
@@ -13,6 +14,7 @@
         <option value="$PROJECT_DIR$/../tb2g-testing-spring/pom.xml" />
         <option value="$PROJECT_DIR$/../tb2g-testing-spring-with-out-context/pom.xml" />
         <option value="$PROJECT_DIR$/../tb2g-testing-spring-with-context/pom.xml" />
+        <option value="$PROJECT_DIR$/../tb2g-testing-spring-mvc/pom.xml" />
       </list>
     </option>
   </component>

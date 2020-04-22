@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../TDD/TDD_Java.iml" filepath="$PROJECT_DIR$/../TDD/TDD_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tb2g-testing-spring-mvc/tb2g-testing-spring.iml" filepath="$PROJECT_DIR$/../tb2g-testing-spring-mvc/tb2g-testing-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tb2g-testing-spring-with-context/tb2g-testing-spring-with-context.iml" filepath="$PROJECT_DIR$/../tb2g-testing-spring-with-context/tb2g-testing-spring-with-context.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tb2g-testing-spring-with-out-context/tb2g-testing-spring-with-out-context.iml" filepath="$PROJECT_DIR$/../tb2g-testing-spring-with-out-context/tb2g-testing-spring-with-out-context.iml" />
       <module fileurl="file://$PROJECT_DIR$/../testing-java-junit5/testing-java-junit5.iml" filepath="$PROJECT_DIR$/../testing-java-junit5/testing-java-junit5.iml" />

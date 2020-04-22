@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="tb2g-testing-spring" />
         <module name="TDD_Java" />
         <module name="tb2g-testing-spring-with-out-context" />
         <module name="testing-java-junit5" />
@@ -15,6 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="tb2g-testing-spring" target="14" />
       <module name="tb2g-testing-spring-with-context" target="14" />
       <module name="tb2g-testing-spring-with-out-context" target="14" />
       <module name="TDD_Java" target="14" />
@@ -24,6 +26,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tb2g-testing-spring" options="-Xlint" />
       <module name="tb2g-testing-spring-with-context" options="-Xlint" />
       <module name="tb2g-testing-spring-with-out-context" options="-Xlint" />
     </option>
