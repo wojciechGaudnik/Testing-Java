@@ -6,19 +6,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = {BaseConfig.class, LaurelConfig.class})
-public class HearingInterpreterLaurelTest {
+public class HearingInterpreterTest {
 
-	@Autowired
-	HearingInterpreter hearingInterpreter;
+    @Autowired
+    HearingInterpreter hearingInterpreter;
 
-	@Test
-	public void whatIHeard() {
-		String word = hearingInterpreter.whatIHeard();
-		assertEquals("Laurel", word);
-	}
+    @Test
+    public void whatIHeard() {
+        String word = hearingInterpreter.whatIHeard();
 
+
+        assertEquals("Laurel", word);
+    }
 }
