@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/../tb2g-testing-spring-with-out-context/tb2g-testing-spring-with-out-context.iml" filepath="$PROJECT_DIR$/../tb2g-testing-spring-with-out-context/tb2g-testing-spring-with-out-context.iml" />
       <module fileurl="file://$PROJECT_DIR$/../testing-java-junit5/testing-java-junit5.iml" filepath="$PROJECT_DIR$/../testing-java-junit5/testing-java-junit5.iml" />
       <module fileurl="file://$PROJECT_DIR$/testing-junit5-mockito.iml" filepath="$PROJECT_DIR$/testing-junit5-mockito.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tb2g-sfg-brewery/tsbb-sfg-brewery.iml" filepath="$PROJECT_DIR$/../tb2g-sfg-brewery/tsbb-sfg-brewery.iml" />
     </modules>
   </component>
 </project>
