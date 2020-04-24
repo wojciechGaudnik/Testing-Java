@@ -86,7 +86,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/../tb2g-testing-spring-mvc/target/petclinic/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="tb2g-testing-spring/web/Web" />
+      <element id="javaee-facet-resources" facet="tb2g-testing-spring-mvc/web/Web" />
     </root>
   </artifact>
 </component>

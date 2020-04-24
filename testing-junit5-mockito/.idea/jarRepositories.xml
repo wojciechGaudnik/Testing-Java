@@ -12,6 +12,11 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="repository.resources.spring.milestone" />
+      <option name="name" value="Spring Milestone Repository" />
+      <option name="url" value="http://repo.resources.spring.io/milestone" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="repository.spring.milestone" />
       <option name="name" value="Spring Milestone Repository" />
       <option name="url" value="http://repo.spring.io/milestone" />
