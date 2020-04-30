@@ -14,9 +14,4 @@ public class TsbbSfgBreweryApplication {
         SpringApplication.run(TsbbSfgBreweryApplication.class, args);
     }
 
-    public static void test(){
-        System.out.println("TsbbSfgBreweryApplication.test");
-
-    }
-
 }

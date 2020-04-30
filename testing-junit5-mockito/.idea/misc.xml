@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../tb2g-testing-spring-mvc" />
     <file type="web" url="file://$PROJECT_DIR$/../tb2g-testing-spring-with-context" />
     <file type="web" url="file://$PROJECT_DIR$/../tb2g-testing-spring-with-out-context" />
+    <file type="web" url="file://$PROJECT_DIR$/../wiremock" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -17,6 +18,7 @@
         <option value="$PROJECT_DIR$/../tb2g-testing-spring-with-context/pom.xml" />
         <option value="$PROJECT_DIR$/../tb2g-testing-spring-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/../tb2g-sfg-brewery/pom.xml" />
+        <option value="$PROJECT_DIR$/../brewery-rest-docs/pom.xml" />
       </list>
     </option>
   </component>
